@@ -5,28 +5,28 @@
     app.directive("url", function () {
         return {
             restrict: 'E',
-            templateUrl: "things-url.html"
+            templateUrl: "thing-url.html"
         };
     });
 
     app.directive("title", function () {
         return {
             restrict: 'E',
-            templateUrl: "things-title.html"
+            templateUrl: "thing-title.html"
         };
     });
 
     app.directive("image", function () {
         return {
             restrict: "E",
-            templateUrl: "things-image.html"
+            templateUrl: "thing-image.html"
         };
     });
 
     app.directive("author", function () {
         return {
             restrict: "E",
-            templateUrl: "things-author.html"
+            templateUrl: "thing-author.html"
         };
     });
 

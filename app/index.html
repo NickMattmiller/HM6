@@ -15,10 +15,11 @@
 	
 	<div class="list-group">
 	
-	<div class="list-group-item" ng-repeat="thing in tutorials.things">
-        <h3>{{thing.title}} <em class="pull-right">{{tutorials.author}}</em></h3>
-
-	  <product-tabs></product-tabs>
+	<div class="list-group-item" ng-repeat="thing in tutorials.things | filter">
+        <h3><a href={{thing.url}}>{{thing.title}}<a> </h3>
+	<img src="{{thing.image}}"></img>
+	<em>{{thing.author}}</em>
+	  <things-tabs></things-tabs>
       </div>
 
     </div>	
