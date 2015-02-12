@@ -6,12 +6,12 @@
 	},
 	{
 		"title": "HTML page",
-		"image": "html.png",
+		"image": "html.PNG",
 		"text": ""
 	},
 	{
 		"title": "Controller",
-		"image": "controller.png",
+		"image": "controller.PNG",
 		"text": "angular-app"
 	},
 	{
@@ -27,7 +27,7 @@
 	},
 	{
 		"title": "JSON",
-		"image": "json.png",
+		"image": "Json.png",
 		"author": "Raoni Boaventura"
 	},
 	{
