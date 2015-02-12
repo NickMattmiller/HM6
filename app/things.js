@@ -23,10 +23,10 @@
         };
     });
 
-    app.directive("author", function () {
+    app.directive("text", function () {
         return {
             restrict: "E",
-            templateUrl: "thing-author.html"
+            templateUrl: "thing-text.html"
         };
     });
 

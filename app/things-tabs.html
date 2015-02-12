@@ -8,13 +8,13 @@
       <a href="thing-image" ng-click="tab.setTab(2)">image</a>
     </li>
     <li ng-class="{ active:tab.isSet(3) }">
-      <a href="thing-author" ng-click="tab.setTab(3)">author</a>
+      <a href="thing-text" ng-click="tab.setTab(3)">text</a>
     </li>
   </ul>
-  <!--  Description Tab's Content  -->
+
   <url ng-show="tab.isSet(1)"></turl>
-  <!--  Spec Tab's Content  -->
-  <thing-image ng-show="tab.isSet(2)"></thing-image>
+
+  <image ng-show="tab.isSet(2)"> </thing-image>
   <!--  Review Tab's Content  -->
-  <author ng-show="tab.isSet(3)">hi</reviews>
+  <text ng-show="tab.isSet(3)">hi</reviews>
 </section>
